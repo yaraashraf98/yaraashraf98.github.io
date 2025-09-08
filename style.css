@@ -95,7 +95,7 @@ body {
     }
 
     section {
-      min-height: 90vh;
+      /* min-height: 90vh; */
       padding: 40px;
       border-bottom: 1px solid #ccc;
       box-shadow: 5px 5px 6px 5px #0000000a;
@@ -146,7 +146,7 @@ body {
       .home-details{
         width: 28%;
         margin-left: 21%;
-        height: 103%;
+        height: 99.7%;
         position: absolute;
         left: 0px;
         top: 0px;
@@ -156,5 +156,86 @@ body {
         color: white;
         padding: 0px 89px;
         background-color: #00000094;
+      }
+      #home img{
+        height: 100vh;
+      }
+      #home h1{
+        color: white;
+        text-align: left;
+        font-size: 70px;
+      }
+      #p007{
+              height:  261.612px !important;;
+        }
+      @media only screen and (max-width: 1024px) {
+        .home-details{
+                width: 34%;
+        height: 75%;
+        padding: 37px;
+        }
+        #home img {
+          height: 75vh;
+        }
+        #p007{
+              height:  178.637px !important;;
+        }
+        #aboutsvg{
+          width: 330px;
+        }
+        #contsvg{
+          width: 280px;
+        }
+      }
+      @media only screen and (max-width: 768px) {
+        .home-details{
+                width: 34%;
+        height: 75%;
+        padding: 37px;
+        }
+        .sidebar{
+          display: none;
+        }
+        .content{
+          margin-left: 0px;
+          margin-right: 0px;
+        }
+         #aboutsvg{
+          width: 330px;
+        }
+        #contsvg{
+          width: 280px;
+        }
+        #p007{
+              height: 149.1px !important;
+        }
+      }
+      @media only screen and (max-width: 600px) {
+        .home-details{
+                         width: 36%;
+        height: 57%;
+        padding: 27px;
+        }
+        .sidebar{
+          display: none;
+        }
+        .content{
+          margin-left: 0px;
+          margin-right: 0px;
+        }
+            #home img {
+              height: 57vh;
+          }
+          #home h1{
+            font-size: 33px;
+          }
+          #home h3{
+            font-size: 10px;
+          }
+          #home h5{
+            font-size: 6px;
+          }
 
       }
+      
+      
