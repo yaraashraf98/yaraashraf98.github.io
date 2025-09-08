@@ -146,7 +146,7 @@ body {
       .home-details{
         width: 28%;
         margin-left: 21%;
-        height: 99.7%;
+        height: 103%;
         position: absolute;
         left: 0px;
         top: 0px;
@@ -156,4 +156,5 @@ body {
         color: white;
         padding: 0px 89px;
         background-color: #00000094;
+
       }
